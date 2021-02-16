@@ -221,6 +221,9 @@
              <div class="col-md-3 col-6 text-center mb-4">
                 <img src="<?php echo MULTIPATH?>img/rad5hub.png" class="img-fluid" width="100px;">
             </div>
+             <div class="col-md-3 col-6 text-center mb-4">
+                <img src="<?php echo MULTIPATH?>img/spons.jpeg" class="img-fluid" width="100px;">
+            </div>
         </div>
         <div class="text-center my-5">
             <a href="https://paystack.com/pay/support-femcode" class="btn btn-myBtn font-weight-bold">Become A Grand Partner</a>

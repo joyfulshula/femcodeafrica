@@ -25,7 +25,7 @@ if ($page  == "" || $page == "home") {
     $title = "FemCode Africa - Teach To Earn | The Teach To Earn (TTE) program is to help us train more ladies in tech through partnerships with instructors, instructors get to host a training for a slash fee having free slots for females. (Training fee must not exceed $25).
 ";
 }elseif($page == "offers"){
-    $title = "FemCode Africa - Offers | Get professional Websites, content writing and other services for your company, business or for personal use. Let a lady  build for you for just a token. This offer is to help encourage ladies grow in their sectors.
+    $title = "FemCode Africa - Offers | handles the 30days trainning that is open to every one( Male and Females) to a paticular language or skill for 30days(1 month).  We partner with Tech/brands to make this training as low as and affordable to those that wants to better or learn a new skill or stat a career in Tech like our boot camp trainings. This event is only done twice a year covering seven(7) tracks or language.
 ";
 }elseif($page == "affiliate"){
     $title = "FemCode Africa - Affiliate | Make 20% of from every contract/project you bring/refer to us. FemCode Africa is giving you the opportunity to make some extra money at your own free time.
@@ -49,7 +49,7 @@ else{
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Building the next era of female software entrepreneurs by Bringing Affordable Learning to Your Doorstep." />
-	<meta name="keywords" content="Fem Code, Fem Code Africa, FemCode Africa,bootcamp, academy coding, web development, mobile development, FemCode, abia" />
+	<meta name="keywords" content="Fem Code,FemCode, Fem Code Africa, FemCode Africa,bootcamp, academy coding, web development, mobile development, FemCode, abia" />
 	<meta name="author" content="FemCode Africa" />
 
   	<!-- Facebook and Twitter integration -->
@@ -124,17 +124,17 @@ else{
 					<a href="<?php echo SITEURL?>sponsor"  class="collapsible-header font-weight-bold fem-dark-text waves-effect arrow-r"><i class="fa fa-tint fem-dark-text"></i>Become a Partner/Sponsor </a> 
 				</li>
 				<li>
-					<a href="<?php echo SITEURL?>tte"  class="collapsible-header font-weight-bold fem-dark-text waves-effect arrow-r"><i class="fa fa-money fem-dark-text"></i>TTE - Teach To Earn </a> 
+					<a href="https://www.facebook.com/groups/FemCodeAfrica/?ref=share"  class="collapsible-header font-weight-bold fem-dark-text waves-effect arrow-r"><i class="fa fa-users fem-dark-text"></i>Join Our Community</a> 
 				</li>
 				<li>
-					<a href="<?php echo SITEURL?>offers"  class="collapsible-header font-weight-bold fem-dark-text waves-effect arrow-r"><i class="fa fa-certificate fem-dark-text"></i>Offers </a> 
+					<a href="<?php echo SITEURL?>offers"  class="collapsible-header font-weight-bold fem-dark-text waves-effect arrow-r"><i class="fa fa-certificate fem-dark-text"></i>Fem 30Days </a> 
 				</li>
 				<li>
 					<a target="_blank" href="https://femcodeafrica.org/blog/"  class="collapsible-header font-weight-bold fem-dark-text waves-effect arrow-r"><i class="fa fa-star fem-dark-text"></i>Blog/Updates </a> 
 				</li>
 				
 				<li>
-					<a href="<?php echo SITEURL?>courses"  class="collapsible-header font-weight-bold fem-dark-text waves-effect arrow-r"><i class="fa fa-book fem-dark-text"></i>Courses/Books </a> 
+					<a href="<?php echo SITEURL?>courses"  class="collapsible-header font-weight-bold fem-dark-text waves-effect arrow-r"><i class="fa fa-book fem-dark-text"></i>Fem Courses</a> 
 				</li>
 				
 				
@@ -176,6 +176,9 @@ else{
 					<a href="<?php echo SITEURL?>home"  class="nav-link fem-dark-text font-weight-bold"><i class="fa fa-home "></i> <span class="clearfix d-none d-md-inline-block">Home </span></a> 
 				</li>
 
+				<li>
+					<a href="<?php echo SITEURL?>about"  class="nav-link fem-dark-text font-weight-bold"><i class="fa fa-archive fem-dark-text"></i>About Us </a> 
+				</li>
 
 				<li class="nav-item">
 					<a href="<?php echo SITEURL?>fem-hub"  class="nav-link fem-dark-text font-weight-bold d-none d-sm-inline-block"><i class="fa fa-institution "></i> <span class="clearfix d-none d-sm-inline-block">Fem Hub </span></a> 
@@ -185,11 +188,17 @@ else{
 					<a href="<?php echo SITEURL?>fem-boot"  class="nav-link fem-dark-text font-weight-bold d-none d-sm-inline-block"><i class="fa fa-graduation-cap "></i> <span class="clearfix d-none d-sm-inline-block">Fem Boot </span></a> 
 				</li>
 
+				<li>
+					<a href="<?php echo SITEURL?>offers"  class="nav-link fem-dark-text font-weight-bold d-none d-sm-inline-block"><i class="fa fa-certificate fem-dark-text"></i>Fem 30Days </a> 
+				</li>
+
 				<li class="nav-item">
 					<a href="<?php echo SITEURL?>fem-lancer"  class="nav-link fem-dark-text font-weight-bold d-none d-sm-inline-block"><i class="fa fa-laptop "></i> <span class="clearfix d-none d-sm-inline-block">Fem Lancer </span></a> 
 				</li>
 
-				
+				<li>
+					<a href="<?php echo SITEURL?>courses"  class="nav-link fem-dark-text font-weight-bold d-none d-sm-inline-block"><i class="fa fa-book fem-dark-text"></i>Fem Courses</a> 
+				</li>
 
 				<li class="nav-item">
 					<a href="<?php echo SITEURL?>sponsor"  class="nav-link fem-dark-text font-weight-bold d-none d-sm-inline-block"><i class="fa fa-tint "></i> <span class="clearfix d-none d-sm-inline-block">Become A Sponsor/Partner </span></a> 

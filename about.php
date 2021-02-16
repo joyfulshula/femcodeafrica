@@ -12,7 +12,7 @@
         <div class="row">
             <div class="col-md-6 wow slideInLeft" data-wow-delay="0.2s">
                 <p class="pt-5">
-                    Focused on SDG 4 (Quality Education) and SDG 5 (Gender Equality), FemCode Africa is your No.1 Virtual Hub with the vision of educating and empowering all females across Africa with on demand tech skills for free or at very affordable prices without them having to leave the comfort of their homes.<br><br>
+                    Focused on SDG 4 (Quality Education) and SDG 5 (Gender Equality), FemCode Africa is your No.1 Virtual Hub with the vision of educating and empowering all females across Africa with on demand tech skills at a very affordable prices without them having to leave the comfort of their homes.<br><br>
                     Our core focus is to bridge the gender gap in the tech eco system, giving Females the chance and opportunity to become independent.<br><br>We do this by taking in Females with less tech background through our Fem-Boot trainings and provide them with access to courses, instructors and sometimes internet access as the case may be. <br><br>We also offer a one on one mentorship because we understand that every one learns at different pace.<br><br>During the learning process they are given the opportunity to work on real life projects and also a chance to earn through paid jobs.
                 </p>
                 
@@ -130,7 +130,7 @@
                         <h4 class="card-title mt-1">Our Mission</h4>
                         <hr>
                         <!--Quotation-->
-                        <p><i class="fa fa-quote-left"></i> Our Mission is to train Females across Africa and equip them with on demand digital skills for free or at very low prices and providing the best quality education available for them to scale in the tech eco system.</p>
+                        <p><i class="fa fa-quote-left"></i> Our Mission is to train Females across Africa and equip them with on demand digital skills at a very low prices and providing the best quality education available for them to scale in the tech eco system.</p>
                         
                     </div>
 
@@ -225,13 +225,13 @@
 	                <!--Card content-->
 	                <div class="card-body text-center">
 	                    <!--Title-->
-	                    <h4 class="card-title"><strong>TTE </strong></h4>
+	                    <h4 class="card-title"><strong>Join Our Community </strong></h4>
 	                    
 
-	                    <p class="card-text">Our TTE - Teach To Earn program is handled by different individual partners to offer quality learning to Females. </p>
+	                    <p class="card-text">We support one another and not only help you upskill your technical skills but also provide high visibility among recruiters. </p>
 
 	                    
-	                   <a href="<?php echo SITEURL?>tte" class="fem-dark-text"><strong>Explore TTE</strong></a>
+	                   <a href="https://www.facebook.com/groups/FemCodeAfrica/?ref=share" target=”_blank” class="fem-dark-text"><strong>Join Our Community</strong></a>
 
 	                </div>
 	                <!--/.Card content-->

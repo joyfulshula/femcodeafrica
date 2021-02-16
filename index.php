@@ -8,9 +8,8 @@ require_once 'header.php';
             
             <h1 class="mb-5 wow slideInLeft" data-wow-delay="0.2s">    Your Female  Tech Career<br> Starts Here! </h1>
 
-            <h4 class="font-weight-bold mb-5 wow slideInRight" data-wow-delay="0.2s">FemCode Africa is your No.1 Virtual Hub with the vision of educating and empowering all females across Africa with on demand tech skills for free or at very affordable prices without them having to leave the comfort of their homes. </h4>
-            <a href="<?php echo SITEURL?>fem-boot" class="btn btn-myBtn font-weight-bold wow slideInLeft" data-wow-delay="0.2s">Become A Student</a>
-          
+            <h4 class="font-weight-bold mb-5 wow slideInRight" data-wow-delay="0.2s">FemCode Africa is your No.1 Virtual Hub with the vision of educating and empowering all females across Africa with on demand tech skills at a very affordable prices without them having to leave the comfort of their homes. </h4>
+            <a href="<?php echo SITEURL?>fem-boot" class="btn btn-myBtn font-weight-bold wow slideInLeft" data-wow-delay="0.2s">Enroll Now</a>
         </div>
         
     </div>
@@ -31,31 +30,7 @@ require_once 'header.php';
 
         <div class="row">
 
-            <!--Grid column-->
-            <div class="col-md-6 mb-r wow slideInLeft" data-wow-delay="0.2s">
-
-                <!--Card-->
-                <div class="card testimonial-card">
-
-                    <div style="height: 250px; overflow: hidden;">
-                        <img src="<?php echo MULTIPATH?>img/hub.svg"  class="img-fluid z-depth-1" >
-                    </div>
-                    <div class="card-body">
-                        <!--Name-->
-                        <h4 class="card-title mt-1">Fem Hub</h4>
-                        <hr>
-                        <!--Quotation-->
-                        <p><i class="fa fa-quote-left"></i> Fem Hub is a division of FemCode Africa which handles clients projects ranging from web development, andriod app development, digital marketing, graphics design and other tech skills. Student get retained by the Hub to enable them earn with the skill they have acquired so far from FemCode Africa.</p>
-                        <a href="<?php echo SITEURL?>fem-hub" class="fem-light-text font-weight-bold">Explore Fem Hub</a>
-                    </div>
-
-                </div>
-                <!--Card-->
-
-            </div>
-            <!--Grid column-->
-
-            <!--Grid column-->
+             <!--Grid column-->
             <div class="col-md-6  mb-r wow slideInRight" data-wow-delay="0.2s">
 
                 <!--Card-->
@@ -70,7 +45,7 @@ require_once 'header.php';
                         <h4 class="card-title mt-1">Fem Boot</h4>
                         <hr>
                         <!--Quotation-->
-                        <p><i class="fa fa-quote-left"></i>With online classes taught by professional instructors and one-on-one mentoring on different on demand tech skills, Fem Boot is every female's gateway to a new career in just few months<!--  Fem Boot handles trainings, mentorship and internship for females equiping them with on demand digital skills. --> <!-- The females have the chance of being retained to Fem Hub, getting oursourced to other tech firms or joining the Fem Lancer Platform -->. All Trainings in Fem Boot are done for Free or at a very subsidized registration fee (NOT MORE THAN $25).</p>
+                        <p><i class="fa fa-quote-left"></i>With online classes taught by professional instructors and one-on-one mentoring on different on demand tech skills, Fem Boot is every female's gateway to a new career in just few months Fem Boot handles trainings, mentorship and internship for females equiping them with on demand digital skills. The females have the chance of being retained to Fem Hub, getting oursourced to other tech firms or joining the Fem Lancer Platform.</p>
                         <a href="<?php echo SITEURL?>fem-boot" class="fem-light-text font-weight-bold">Explore / Join The Next Cohort</a>
                     </div>
 
@@ -78,6 +53,31 @@ require_once 'header.php';
                 <!--Card-->
 
             </div>
+
+            <!--Grid column-->
+            <div class="col-md-6 mb-r wow slideInLeft" data-wow-delay="0.2s">
+
+                <!--Card-->
+                <div class="card testimonial-card">
+
+                    <div style="height: 250px; overflow: hidden;">
+                        <img src="<?php echo MULTIPATH?>img/hub.svg"  class="img-fluid z-depth-1" >
+                    </div>
+                    <div class="card-body">
+                        <!--Name-->
+                        <h4 class="card-title mt-1">Fem 30Days</h4>
+                        <hr>
+                        <!--Quotation-->
+                        <p><i class="fa fa-quote-left"></i> Fem 30days is a part of FemCode Africa that handles the 30days trainning that is open to every one( Male and Females) to a paticular language or skill.<br> Are you looking to get better or dive in Tech? You haven't missed your way, because Fem30Days is just the right one you need because we are all about quality and dishing out the best to our students.</p>
+                        <a href="<?php echo SITEURL?>offers" class="fem-light-text font-weight-bold">Explore Fem 30Days</a>
+                    </div>
+
+                </div>
+                <!--Card-->
+
+            </div>
+            <!--Grid column-->
+
             <!--Grid column-->
 
             <!--Grid column-->
@@ -116,11 +116,11 @@ require_once 'header.php';
 
                     <div class="card-body">
                         <!--Name-->
-                        <h4 class="card-title mt-1">TTE - Teach To Earn</h4>
+                        <h4 class="card-title mt-1">Join Our Community</h4>
                         <hr>
                         <!--Quotation-->
-                        <p><i class="fa fa-quote-left"></i> The Teach To Earn (TTE) program is to help us train more ladies in tech through partnerships with instructors. Instructors get to host a training for a slash fee having free slots for females. (Training fee must not exceed $25)</p>
-                        <a href="<?php echo SITEURL?>tte" class="fem-light-text font-weight-bold">Learn More About TTE</a>
+                        <p><i class="fa fa-quote-left"></i> We support one another and celebrate our wins and not only help you upskill your technical skills but also provide high visibility among recruiters.<br><br></p>
+                        <a href="https://www.facebook.com/groups/FemCodeAfrica/?ref=share" target=”_blank” class="fem-light-text font-weight-bold pt-5 mt-5"> Join Our Community </a>
                     </div>
 
                 </div>
@@ -336,13 +336,12 @@ require_once 'header.php';
 
 <section id="affliate" class="pb-4">
     <div class="container text-center py-4">
-        <h1 class="text-white bold wow slideInUp" data-wow-delay="0.2s"> Want To Make Extra Cash? </h1>
+        <h1 class="text-white bold wow slideInUp" data-wow-delay="0.2s"> Are you looking to get better or dive in Tech and you are not a female? </h1>
         <div class="">
             <p class="text-light text-center pt-5">
-                Make 20% of from every contract/project you bring/refer to us <br> OR <br> Teach others a skill you know and earn 
+                Join Our 30Days Tranings that are Now 70% of N40,000. 
             </p>
-            <a href="<?php echo SITEURL?>affiliate" class="btn btn-myBtn">Learn About About Affiliate</a>
-            <a href="<?php echo SITEURL?>tte" class="btn btn-myBtn">Learn More About Teach To Earn</a>
+            <a href="<?php echo SITEURL?>offers" class="btn btn-myBtn">Learn More About Fem 30Days</a>
         </div>
     </div>
 </section>
@@ -354,11 +353,14 @@ require_once 'header.php';
     <p class="section-description lead grey-text">Here are our esteemed partners that has been contributing to our quest in empowering African ladies with digital skills.</p>
     <div class="container">
         <div class="row">
-            <div class="col-md-3 col-6 text-center mb-4">
+            <div class="col-md-3 col-4 text-center mb-4">
                 <img src="<?php echo MULTIPATH?>img/logo.png" class="img-fluid" width="100px;">
             </div>
-             <div class="col-md-3 col-6 text-center mb-4">
+             <div class="col-md-3 col-4 text-center mb-4">
                 <img src="<?php echo MULTIPATH?>img/rad5hub.png" class="img-fluid" width="100px;">
+            </div>
+            <div class="col-md-3 col- text-center mb-4">
+                <img src="<?php echo MULTIPATH?>img/spons.jpeg" class="img-fluid" width="100px;">
             </div>
         </div>
         <div class="text-center mb-5 pb-5">
@@ -537,11 +539,7 @@ require_once 'header.php';
             </div>
 
         </div>
-            <!--First slide-->
-
-
-        
-
+            <!--First slide-->  
     </div>
     <!--Carousel Wrapper-->
 

@@ -119,10 +119,10 @@ require_once 'header.php';
                                 <hr class="hr-light mb-4 mt-4">
 
                                 <ul class="inline-ul text-center list-unstyled">
-                                    <li><a class="icons-sm tw-ic"><i class="fa fa-facebook-square"></i></a></li>
-                                    <li><a class="icons-sm li-ic"><i class="fa fa-twitter-square"> </i></a></li>
-                                    <li><a class="icons-sm ins-ic"><i class="fa fa-instagram"> </i></a></li>
-                                    <li><a class="icons-sm ins-ic"><i class="fa fa-whatsapp"> </i></a></li>
+                                    <li><a target="_blank" href="https://web.facebook.com/FemCodeAfrica/?_rdc=1&_rdr" class="icons-sm tw-ic"><i class="fa fa-facebook-square"></i></a></li>
+                                    <li><a target="_blank" href="https://twitter.com/femcodea?lang=en" class="icons-sm li-ic"><i class="fa fa-twitter-square"> </i></a></li>
+                                    <li><a target="_blank" href="https://www.instagram.com/fem_code/" class="icons-sm ins-ic"><i class="fa fa-instagram"> </i></a></li>
+                                    <li><a target="_blank" href="https://api.whatsapp.com/send/?phone=2349017434810&text&app_absent=0" class="icons-sm ins-ic"><i class="fa fa-whatsapp"> </i></a></li>
                                 </ul>
                             </div>
                         </div>
