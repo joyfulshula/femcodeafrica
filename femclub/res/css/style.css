@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap');
+
+html, body {
+	height: 100%;
+	width: 100%;
+	font-family: 'Poppins', sans-serif;
+	color: #222;
+}
+
+/* nav */
+
+/* .navbar-brand img{
+	width: 5vw;
+	height: 5vh;
+} */
+
+
+.nav-color li a{
+	color: #00005A !important;
+}
+
+/* hero */
+.hero {
+	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../img/bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 90vh;
+}
+
+.hero-content {
+	text-align: center;
+	padding-top: 10vh;
+	color: white;
+}
+
+.hero-btn a{
+	color: #fff;
+	text-decoration: none;
+	padding: 20px;
+	border: 1px solid #02A2DE;
+	border-radius: 7px;
+	background-color: #02A2DE;
+}
+
+
+
+.nav-btn a:hover {
+	background-color: #000066;
+	border: 1px solid #000066;
+}
+
+/* .flex-img {
+	padding-top: 37px;
+} */
+
+.flex {
+	font-family: 'Quicksand', sans-serif;
+}
+
+.flex-img img{
+	height: 60vh;
+	/* margin-right: 50px; */
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* about */
+
+
+.fix-bg {
+	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../img/fix-bg2.jpg');
+	background-repeat: no-repeat;
+	 background-attachment: fixed;
+	background-size: cover;
+	height: auto !important;
+}
+
+
+/* footer */
+
+/* footer */
+
+.footer {
+	background-color: #000066;
+	color: #fff;
+	text-align: center;
+	padding: 10px; 
+}
+
+
+/* submit page */
+
+.submit-heroImage {
+	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../img/fix-bg.jpg');
+	background-repeat: no-repeat;
+	 background-attachment: fixed;
+	background-size: cover;
+	height: 90vh;
+}
+
+.submit-heroImage .line {
+	padding-top: 130px!important;
+}
+
+/* small screen */
+
+@media only screen and (max-width: 720px) {
+	.map-container{
+    height: 70vh !important;
+    width: 90vw !important;
+  }
+
+  .map-container iframe{
+    height: 70vh !important;
+    width: 90vw !important;
+  }
+
+  .line h5{
+  	padding-top: 60px!important;
+  	font-size: 15px;
+	line-height: 30px;
+	}
+
+	.navbar-brand img{
+	width: 15vw;
+	height: 5vh;
+	}
+
+	.hidden-sm-down {
+		display: none;
+	}
+
+	.hero {
+		height: 70vh;
+	}
+
+	.about h3{
+		font-size: 25px!important;
+	}
+
+	.about-hr {
+	border: 2px solid #00005A;
+	width: 100px;
+	}
+
+	.space-out-sm {
+		margin: 20px 0;
+	}
+
+	.contact h2{
+		font-size: 25px!important;
+	}
+
+	.contact h5{
+		font-size: 15px!important;
+	}
+
+	.social a{
+	font-size: 30px;
+	padding: 10px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.hero {
+	background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 95vh;
+	}
+
+	/* .hero-btn {
+		margin-top: 35px;
+	} */
+}
